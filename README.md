@@ -1,5 +1,6 @@
 # Instant-Gratification
 kaggle Top6% (95th of 1836) 🥉
+![캡처](https://user-images.githubusercontent.com/30254394/60252574-6df26880-9905-11e9-852e-4378182cbc27.PNG)
 # Summary of Instant Gratification
 ## useful
 >[BaseLine](https://github.com/ph1545/Instant-Gratification/blob/master/useful/BaseLine%20%20%5Bcv%20scores%20%3D%200.537%5D.ipynb)  [cv scores = 0.537]
