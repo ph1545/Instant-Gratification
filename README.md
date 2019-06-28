@@ -28,7 +28,7 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[QDA](https://github.com/ph1545/Instant-Gratification/blob/master/useful/QDA%20%5Bcv%20scores%20%3D%200.964%5D.ipynb) [cv scores = 0.964]
 
->[Ensemble Models_xgboost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Ensemble%20Models_xgboost%20%5Bcv%20scores%20%3D%200.967%5D.ipynb) [cv scores = 0.967]
+>[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Ensemble%20Models_xgboost%20%5Bcv%20scores%20%3D%200.967%5D.ipynb) [cv scores = 0.967]
 
 - 앙상블 구성모델
 1. KNN [cv scores = 0.902]
@@ -39,6 +39,11 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
 
+>[Ensemble Models_XGBoost][cv scores = 0.9717][private = 0.972]
+2. SVC [cv scores = 0.950]
+3. NuSVC [cv scores = 0.960]
+4. GMM [cv scores = 0.968]
+5. QDA + Pseudo [cv scores = 0.970]
 ## useless
 - 반올림 
 - unique_value_count 변수 생성 
