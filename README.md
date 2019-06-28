@@ -39,16 +39,37 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
 
-
-
 ## useless
-- unique 변수 생성
+- 반올림 
+- unique_value_count 변수 생성 
 - catergorial + NN, Lgboost, xgboost
+- VarianceThreshold
+- RobustScaler + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- StandardScaler + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- StandardScaler + PCA + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- RobustScaler + PCA + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- PolynomialFeatures + StandardScaler + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- PolynomialFeatures + RobustScaler+ VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- StandardScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- RobustScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
 
 ## Learning
->Adversarial Validation 
->make_classification
->QDA
->VarianceThreshold
->GMM
->QLR
+-Adversarial Validation 
+-make_classification
+-QDA
+-VarianceThreshold
+-GMM
+-QLR
+
+
+## top10 kernel 
+- [1th](https://www.kaggle.com/infinite/v2-all-gmm)
+- [2th](https://www.kaggle.com/qiaoshiji/asdfghjkl)
+- [3th](https://www.kaggle.com/zaharch/instant-success-gmm)
+- [4th](https://www.kaggle.com/rsakata/gmm-with-target-perfect-pred-random-shuffle)
+- [5th](https://www.kaggle.com/waylongo/5th-solution)
+- [6th](https://www.kaggle.com/c/instant-gratification/discussion/96496)
+- [7th](https://www.kaggle.com/cdeotte/3-clusters-per-class-0-975)
+- [8th](https://www.kaggle.com/merkylove/10th-public-8th-private-solution)
+- [9th](https://www.kaggle.com/yassertabandeh/ingr09)
+- [10th](https://www.kaggle.com/raghaw/my-gratification-v2-10th-place-on-public-lb)
