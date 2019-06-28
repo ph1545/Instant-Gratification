@@ -43,6 +43,15 @@ kaggle Top6% (95th of 1836) 🥉
 - 반올림 
 - unique_value_count 변수 생성 
 - catergorial + NN, Lgboost, xgboost
+- VarianceThreshold
+- RobustScaler + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- StandardScaler + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- StandardScaler + PCA + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- RobustScaler + PCA + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- PolynomialFeatures + StandardScaler + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- PolynomialFeatures + RobustScaler+ VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- StandardScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
+- RobustScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
 
 ## Learning
 -Adversarial Validation 
