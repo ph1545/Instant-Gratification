@@ -40,10 +40,12 @@ kaggle Top6% (95th of 1836) 🥉
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
 
 >[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/%5BEnsemble%20Models_XGBoost%5D%5Bcv%20scores%20%3D%200.9717%5D%5Bprivate%20%3D%200.972%5D.ipynb)[cv scores = 0.9717][private = 0.972]
-2. SVC [cv scores = 0.950]
-3. NuSVC [cv scores = 0.960]
-4. GMM [cv scores = 0.968]
-5. QDA + Pseudo [cv scores = 0.970]
+
+- 앙상블 구성모델
+1. SVC [cv scores = 0.950]
+2. NuSVC [cv scores = 0.960]
+3. GMM [cv scores = 0.968]
+4. QDA + Pseudo [cv scores = 0.970]
 ## useless
 - 반올림 
 - unique_value_count 변수 생성 
