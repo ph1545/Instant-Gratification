@@ -40,7 +40,8 @@ kaggle Top6% (95th of 1836) 🥉
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
 
 ## useless
-- unique 변수 생성
+- 반올림 
+- unique_value_count 변수 생성 
 - catergorial + NN, Lgboost, xgboost
 
 ## Learning
