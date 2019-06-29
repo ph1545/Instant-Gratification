@@ -61,6 +61,8 @@ kaggle Top6% (95th of 1836) 🥉
 - RobustScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
 
 ## Learning
+- [Data Structure](https://www.kaggle.com/cdeotte/support-vector-machine-0-925) - Chris Deotte discover Variables are not Gaussian
+
 -Adversarial Validation 
 -make_classification
 -QDA
