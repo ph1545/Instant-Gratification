@@ -30,10 +30,7 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[QDA](https://github.com/ph1545/Instant-Gratification/blob/master/useful/QDA%20%5Bcv%20scores%20%3D%200.964%5D.ipynb) [cv scores = 0.964]
 
-- 높은 스코어를 기록하는 Quadratic Discriminant Analysis모델을 Vladislav가 [공개](https://www.kaggle.com/speedwagon/quadratic-discriminant-analysis) 
-
-- Chris Deotte가 QDA를 [설명](https://www.kaggle.com/c/instant-gratification/discussion/93843#latest-555637)
-
+- 높은 스코어를 기록하는 Quadratic Discriminant Analysis모델을 Vladislav가 [공개](https://www.kaggle.com/speedwagon/quadratic-discriminant-analysis) Chris Deotte가 QDA를 [설명](https://www.kaggle.com/c/instant-gratification/discussion/93843#latest-555637)
 - QDA가 높은스코어를 얻은 이유는 데이터가 다변량 가우스분포를 따르며 이러한 가정에서 매우 효과적인 모델이기 때문
 >[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Ensemble%20Models_xgboost%20%5Bcv%20scores%20%3D%200.967%5D.ipynb) [cv scores = 0.967]
 
