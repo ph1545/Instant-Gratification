@@ -68,19 +68,19 @@ kaggle Top6% (95th of 1836) 🥉
 - RobustScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
 
 ## Learning
-- [Data Structure](https://www.kaggle.com/cdeotte/support-vector-machine-0-925) - Chris Deotte discover Variables are not Gaussian
+- [Data Structure](https://www.kaggle.com/cdeotte/support-vector-machine-0-925) : Chris Deotte discover Variables are not Gaussian
 
-- [Adversarial Validation](https://github.com/ph1545/Instant-Gratification/blob/master/Adversarial%20validation/Adversarial%20validation.ipynb) - test데이터와 train데이터는 같은 분포에서 나온데이터 확인. [참고](https://github.com/ph1545/concept-study/blob/master/Adversarial%20validation%20part1.ipynb)
+- [Adversarial Validation](https://github.com/ph1545/Instant-Gratification/blob/master/Adversarial%20validation/Adversarial%20validation.ipynb) : test데이터와 train데이터는 같은 분포에서 나온데이터 확인. [참고](https://github.com/ph1545/concept-study/blob/master/Adversarial%20validation%20part1.ipynb)
 
-- make_classification - mhviraf가 make_classification통해 Synthetic data생성 real데이터와 비슷한 AUC를 얻음
+- make_classification : mhviraf가 make_classification통해 Synthetic data생성 real데이터와 비슷한 AUC를 얻음
 
 - [QDA](https://www.kaggle.com/c/instant-gratification/discussion/93843#latest-555637)
 
-- VarianceThreshold - 분산에 의해 특성을 선택한다.
+- VarianceThreshold : 분산에 의해 특성을 선택한다.
 
-- GMM - Gaussian Mixture Model의 약자로 이번 우승 솔루션의 핵심 개념이다.
+- GMM : Gaussian Mixture Model의 약자로 이번 우승 솔루션의 핵심 개념이다.
 
-- QLR(Quadratic logistic regression) - 이 모델은 QDA와 같은 quadratic boundary를 가지게 하는 변수와 logistic regression이 합쳐진것을 의미한다 예) PolynomialFeatures + LR
+- QLR(Quadratic logistic regression) : 이 모델은 QDA와 같은 quadratic boundary를 가지게 하는 변수와 logistic regression이 합쳐진것을 의미한다 예) PolynomialFeatures + LR
 
 
 ## top10 kernel 
