@@ -28,7 +28,7 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[QDA](https://github.com/ph1545/Instant-Gratification/blob/master/useful/QDA%20%5Bcv%20scores%20%3D%200.964%5D.ipynb) [cv scores = 0.964]
 
->[Ensemble Models_xgboost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Ensemble%20Models_xgboost%20%5Bcv%20scores%20%3D%200.967%5D.ipynb) [cv scores = 0.967]
+>[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Ensemble%20Models_xgboost%20%5Bcv%20scores%20%3D%200.967%5D.ipynb) [cv scores = 0.967]
 
 - 앙상블 구성모델
 1. KNN [cv scores = 0.902]
@@ -39,6 +39,13 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
 
+>[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/%5BEnsemble%20Models_XGBoost%5D%5Bcv%20scores%20%3D%200.9717%5D%5Bprivate%20%3D%200.972%5D.ipynb)[cv scores = 0.9717][private = 0.972]
+
+- 앙상블 구성모델
+1. SVC [cv scores = 0.950]
+2. NuSVC [cv scores = 0.960]
+3. GMM [cv scores = 0.968]
+4. QDA + Pseudo [cv scores = 0.970]
 ## useless
 - 반올림 
 - unique_value_count 변수 생성 
@@ -54,6 +61,8 @@ kaggle Top6% (95th of 1836) 🥉
 - RobustScaler + PolynomialFeatures + VarianceThreshold + model(NuSVC, QDA, LR, MLP, KNN, SVC, LDA, GPC)
 
 ## Learning
+- [Data Structure](https://www.kaggle.com/cdeotte/support-vector-machine-0-925) - Chris Deotte discover Variables are not Gaussian
+
 -Adversarial Validation 
 -make_classification
 -QDA
