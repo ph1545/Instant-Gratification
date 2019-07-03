@@ -9,7 +9,7 @@ kaggle Top6% (95th of 1836) 🥉
 >[LogisticRegression](https://github.com/ph1545/Instant-Gratification/blob/master/useful/LogisticRegression%5Bcv%20scores%20%3D%200.803%5D.ipynb) [cv scores = 0.803]
 
 - eda 를 통하여 발견한 'wheezy-copper-turtle-magic'변수를 독립적으로 모델을 만들어
-다른 변수들과 상호작용을 시켜줬더니 스코어가 향상됨.
+다른 변수들과 상호작용, 스코어가 향상.
 
 >[Feature Selection](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Feature%20Selection%20%5Bcv%20scores%20%3D%200.804%5D.ipynb) [cv scores = 0.804]
 
@@ -26,8 +26,15 @@ kaggle Top6% (95th of 1836) 🥉
 
 >[StandardScaler](https://github.com/ph1545/Instant-Gratification/blob/master/useful/StandardScaler%20%20%5Bcv%20scores%20%3D%200.953%5D.ipynb)  [cv scores = 0.953]
 
+- 비선형 모델NuSVC에 StandardScaler 적용
+
 >[QDA](https://github.com/ph1545/Instant-Gratification/blob/master/useful/QDA%20%5Bcv%20scores%20%3D%200.964%5D.ipynb) [cv scores = 0.964]
 
+- 높은 스코어를 기록하는 Quadratic Discriminant Analysis모델을 Vladislav가 [공개](https://www.kaggle.com/speedwagon/quadratic-discriminant-analysis) 
+
+- Chris Deotte가 QDA를 [설명](https://www.kaggle.com/c/instant-gratification/discussion/93843#latest-555637)
+
+- QDA가 높은스코어를 얻은 이유는 데이터가 다변량 가우스분포를 따르며 이러한 가정에서 매우 효과적인 모델이기 때문
 >[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Ensemble%20Models_xgboost%20%5Bcv%20scores%20%3D%200.967%5D.ipynb) [cv scores = 0.967]
 
 - 앙상블 구성모델
@@ -38,6 +45,9 @@ kaggle Top6% (95th of 1836) 🥉
 5. QDA [cv scores = 0.965]
 
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
+
+- Pseudo Labeling 이란 확실하게 예측된 test데이터를 train데이터에 포함시켜 훈련하는것을 말합니다.
+- Pseudo Labeling결과 AUC 0.003 
 
 >[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/%5BEnsemble%20Models_XGBoost%5D%5Bcv%20scores%20%3D%200.9717%5D%5Bprivate%20%3D%200.972%5D.ipynb)[cv scores = 0.9717][private = 0.972]
 
