@@ -53,7 +53,7 @@ kaggle Top6% (95th of 1836) 🥉
 2. NuSVC [cv scores = 0.960]
 3. GMM [cv scores = 0.968]
 4. QDA + Pseudo [cv scores = 0.970]
-## useless
+## try
 - 반올림 
 - unique_value_count 변수 생성 
 - catergorial + NN, Lgboost, xgboost
