@@ -47,7 +47,7 @@ kaggle Top6% (95th of 1836) 🥉
 >[Pseudo Labeling](https://github.com/ph1545/Instant-Gratification/blob/master/useful/Pseudo%20Labeling%20%20%5Bcv%20scores%20%3D%200.970%5D.ipynb)  [cv scores = 0.970]
 
 - Pseudo Labeling 이란 확실하게 예측된 test데이터를 train데이터에 포함시켜 훈련하는것을 말합니다.
-- Pseudo Labeling결과 AUC 0.003 
+- Pseudo Labeling결과 AUC 0.003상승
 
 >[Ensemble Models_XGBoost](https://github.com/ph1545/Instant-Gratification/blob/master/useful/%5BEnsemble%20Models_XGBoost%5D%5Bcv%20scores%20%3D%200.9717%5D%5Bprivate%20%3D%200.972%5D.ipynb)[cv scores = 0.9717][private = 0.972]
 
@@ -73,15 +73,21 @@ kaggle Top6% (95th of 1836) 🥉
 ## Learning
 - [Data Structure](https://www.kaggle.com/cdeotte/support-vector-machine-0-925) - Chris Deotte discover Variables are not Gaussian
 
--Adversarial Validation 
--make_classification
--QDA
--VarianceThreshold
--GMM
--QLR
+- [Adversarial Validation](https://github.com/ph1545/Instant-Gratification/blob/master/Adversarial%20validation/Adversarial%20validation.ipynb) - test데이터와 train데이터는 같은 분포에서 나온데이터 확인. [참고](https://github.com/ph1545/concept-study/blob/master/Adversarial%20validation%20part1.ipynb)
+
+-make_classification - mhviraf가 make_classification통해 Synthetic data생성 real데이터와 비슷한 AUC를 얻음
+
+-[QDA](https://www.kaggle.com/c/instant-gratification/discussion/93843#latest-555637)
+
+-VarianceThreshold - 분산에 의해 특성을 선택한다.
+
+-GMM - Gaussian Mixture Model의 약자로 이번 우승 솔루션의 핵심 개념이다.
+
+-QLR(Quadratic logistic regression) - 이 모델은 QDA와 같은 quadratic boundary를 가지게 하는 변수와 logistic regression이 합쳐진것을 의미한다 예) PolynomialFeatures + LR
 
 
 ## top10 kernel 
+please upvote after click
 - [1th](https://www.kaggle.com/infinite/v2-all-gmm)
 - [2th](https://www.kaggle.com/qiaoshiji/asdfghjkl)
 - [3th](https://www.kaggle.com/zaharch/instant-success-gmm)
