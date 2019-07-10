@@ -53,6 +53,11 @@ kaggle Top6% (95th of 1836) 🥉
 2. NuSVC [cv scores = 0.960]
 3. GMM [cv scores = 0.968]
 4. QDA + Pseudo [cv scores = 0.970]
+
+>[1% solution](https://github.com/ph1545/Instant-Gratification/blob/master/useful/top%201%25%20solutions%5Bprivate%20%3D%200.9744%5D.ipynb)[private = 0.9744]
+
+- 이번 comp의 핵심모델은 GMM이었습니다. 데이터가 make_classification을 통해 생성되었고 n_clusters_per_class=3이라는 것을 알아야만 했습니다.
+
 ## try
 - 반올림 
 - unique_value_count 변수 생성 
